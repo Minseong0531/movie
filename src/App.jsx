@@ -28,26 +28,26 @@ function App() {
                 <div className='evt_wrap'>
                   <ul className='e1'>
                     <li className='evt1'>
-                      <img src="/images/event1.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}images/event1.jpg`} alt=""
                       onClick={()=>{ setEvtId(1); navigate('/event/'+1 ) }}/>
                     </li>
                     <li className='evt2'>
-                      <img src="/images/event2.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}/images/event2.jpg`} alt="" 
                       onClick={()=>{ setEvtId(2); navigate('/event/'+2 ) }}/>
                     </li>
                     <li className='evt3'>
-                      <img src="/images/event3.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}/images/event3.jpg`} alt="" 
                       onClick={()=>{ setEvtId(3); navigate('/event/'+3 ) }}/>
                     </li>
                     <li className='evt4'>
-                      <img src="/images/event4.jpg" alt=""/>
+                      <img src={`${import.meta.env.BASE_URL}/images/event4.jpg`} alt=""/>
                     </li>
                     <li className='evt5'>
-                      <img src="/images/event5.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}/images/event5.jpg`} alt="" 
                       onClick={()=>{ setEvtId(4); navigate('/event/'+4 ) }}/>
                     </li>
                     <li className='evt6'>
-                      <img src="/images/event6.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}/images/event6.jpg`} alt="" 
                       onClick={()=>{ setEvtId(6); navigate('/event/'+6 ) }}/>
                     </li>
                   </ul>
