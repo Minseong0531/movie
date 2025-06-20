@@ -15,7 +15,7 @@ function App() {
     <div className='MoiveApp'>
       <Header />
       <Routes>
-        <Route path="/movie" element={<>
+        <Route path="/" element={<>
           <div id='sub_section'>
             <MainVisual />
             <div id="contents">
@@ -28,7 +28,7 @@ function App() {
                 <div className='evt_wrap'>
                   <ul className='e1'>
                     <li className='evt1'>
-                      <img src="/images/event1.jpg" alt="" 
+                      <img src={`${import.meta.env.BASE_URL}images/~.jpg`} alt=""
                       onClick={()=>{ setEvtId(1); navigate('/event/'+1 ) }}/>
                     </li>
                     <li className='evt2'>
