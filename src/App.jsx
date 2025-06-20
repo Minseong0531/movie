@@ -28,7 +28,7 @@ function App() {
                 <div className='evt_wrap'>
                   <ul className='e1'>
                     <li className='evt1'>
-                      <img src={`${import.meta.env.BASE_URL}images/~.jpg`} alt=""
+                      <img src="/images/event1.jpg" alt="" 
                       onClick={()=>{ setEvtId(1); navigate('/event/'+1 ) }}/>
                     </li>
                     <li className='evt2'>
